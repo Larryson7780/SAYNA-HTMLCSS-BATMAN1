@@ -46,3 +46,8 @@ body {
     padding: 50px;
     border: blue solid 2px;
 }
+
+.quatreParagraphe {
+    width: 760px;
+    border: red solid 2px;
+}
