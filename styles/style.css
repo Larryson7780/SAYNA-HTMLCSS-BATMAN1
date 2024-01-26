@@ -1,0 +1,33 @@
+#fondBatmanRouge {
+    background-image: url("../assets/Illustrations/Bathome1.png");
+    background-size: cover;
+    background-color: #cccccc;
+    width: 1440px;
+    height: 901px;
+    display: grid;
+    place-items: center; /* Centrer horizontalement et verticalement */
+}
+
+#fondBatmanRouge > div {
+    text-align: center; /* Centrer le texte à l'intérieur de la div */
+    color: white;
+}
+
+#fondBatmanRouge p {
+    width: 468px;
+}
+
+#fondBatmanRouge ul {
+    padding: 0;
+}
+
+#fondBatmanRouge ul li {
+    list-style-type: none;
+}
+
+#fondBatmanRouge div ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
