@@ -51,3 +51,19 @@ body {
     width: 760px;
     border: red solid 2px;
 }
+
+.troisImages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px; /* Ajustez cette valeur selon vos besoins */
+}
+
+.troisImages li {
+    text-align: center; /* Centrer le contenu dans chaque élément de liste */
+    list-style: none; /* Supprimer les puces de liste */
+}
+
+.troisImages li p {
+    margin-top: 5px; /* Ajouter un peu d'espace entre l'image et le texte */
+}
