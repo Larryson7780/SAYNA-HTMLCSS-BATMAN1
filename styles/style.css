@@ -1,3 +1,8 @@
+body {
+    width: 1440px;
+    border: black solid 2px;
+}
+
 #fondBatmanRouge {
     background-image: url("../assets/Illustrations/Bathome1.png");
     background-size: cover;
@@ -31,3 +36,13 @@
     align-items: center;
 }
 
+/* fondBatmanRouge ⬆️*/
+
+
+#flecheDown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    border: blue solid 2px;
+}
