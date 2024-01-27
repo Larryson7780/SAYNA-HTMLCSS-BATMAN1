@@ -104,3 +104,9 @@ aside img {
 #flecheDown, h2, #bandeAnnonce, #formulaire, footer {
     padding: 50px;
 }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
