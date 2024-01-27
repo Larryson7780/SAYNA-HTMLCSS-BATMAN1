@@ -2,6 +2,8 @@ body {
     width: 1440px;
     border: black solid 2px;
     background-color: black;
+    color: white;
+    margin: 0 auto;
 }
 
 #fondBatmanRouge {
