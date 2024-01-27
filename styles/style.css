@@ -18,7 +18,6 @@ body {
 
 #fondBatmanRouge > div {
     text-align: center; /* Centrer le texte à l'intérieur de la div */
-    color: white;
 }
 
 #fondBatmanRouge p {
@@ -81,7 +80,6 @@ aside img {
     padding: 0;
     margin: 60px;
     justify-content: center;
-    color: white;
 }
 
 #texteMultimedia {
