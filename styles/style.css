@@ -57,12 +57,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 60px; /* Ajustez cette valeur selon vos besoins */
+    gap: 60px;
 }
 
 .troisImages li {
-    text-align: center; /* Centrer le contenu dans chaque élément de liste */
-    list-style: none; /* Supprimer les puces de liste */
+    text-align: center;
+    list-style: none;
 }
 
 .troisImages li p {
@@ -89,6 +89,14 @@ aside img {
     border-radius: 0 10px 10px 0;
     background-color: #8d8181;
 }
+
+#bandeAnnonce {
+    display: flex;
+    justify-content: center;
+    margin: 80px;
+}
+
+
 /*
 #multimedia {
     display: flex;
