@@ -50,6 +50,7 @@ body {
 .quatreParagraphe {
     width: 760px;
     border: red solid 2px;
+    text-align: justify;
 }
 
 .troisImages {
@@ -67,3 +68,40 @@ body {
 .troisImages li p {
     margin-top: 5px; /* Ajouter un peu d'espace entre l'image et le texte */
 }
+
+aside img {
+    display: block;
+}
+
+#multimedia {
+    display: flex;
+    padding: 0;
+    margin: 60px;
+    justify-content: center;
+    color: white;
+}
+
+#texteMultimedia {
+    width: 570px;
+    height: 230px;
+    font-size: 14px;
+    text-align: justify;
+    border-radius: 0 10px 10px 0;
+    background-color: #8d8181;
+}
+/*
+#multimedia {
+    display: flex;
+    padding: 0;
+    border-radius: 10px;
+    color: white;
+    background-color: #7d7d7d;
+}
+
+#BatmanBegins {
+    width: 500px;
+}
+
+#bordureMultimedia {
+    width: 500px;
+}*/
