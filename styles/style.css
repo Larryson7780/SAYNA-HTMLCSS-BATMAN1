@@ -100,3 +100,7 @@ aside img {
 #formulaire img {
     width: 1440px;
 }
+
+#flecheDown, h2, #bandeAnnonce, #formulaire, footer {
+    padding: 50px;
+}
