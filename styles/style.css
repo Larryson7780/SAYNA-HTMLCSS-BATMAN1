@@ -128,3 +128,13 @@ nav {
     top: 25%;
     right: 0
 }
+
+.multimedia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fleche {
+    padding: 150px;
+}
