@@ -55,6 +55,14 @@ body {
     );
 }
 
+.home {
+    font-size: 30px;
+}
+
+.home:hover {
+    text-decoration: underline yellow solid ;
+}
+
 /* fondBatmanRouge ⬆️*/
 
 
