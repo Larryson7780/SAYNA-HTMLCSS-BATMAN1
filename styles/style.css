@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+
 body {
     width: 1440px;
     border: black solid 2px;
@@ -137,4 +139,15 @@ nav {
 
 .fleche {
     padding: 150px;
+}
+
+h2, p {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+#logoPiedDePage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
