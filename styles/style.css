@@ -6,6 +6,7 @@ body {
     background-color: black;
     color: white;
     margin: 0 auto;
+    font-family: Rajdhani, serif;
 }
 
 #fondBatmanRouge {
@@ -61,6 +62,14 @@ body {
 
 .home:hover {
     text-decoration: underline yellow solid ;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+h2 {
+    font-weight: bold;
 }
 
 /* fondBatmanRouge ⬆️*/
@@ -160,10 +169,6 @@ nav {
 
 .fleche {
     padding: 150px;
-}
-
-h2, p {
-    font-family: 'Rajdhani', sans-serif;
 }
 
 .textPiedDePage {
