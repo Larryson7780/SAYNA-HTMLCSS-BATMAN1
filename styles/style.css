@@ -129,8 +129,27 @@ aside img {
     margin: 80px;
 }
 
-#formulaire img {
-    width: 1440px;
+.boiteChoix {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+}
+
+.choix {
+    border: white solid 2px;
+    padding: 20px;
+    margin: 20px;
+    background: linear-gradient(
+            rgba(237, 221, 191, 0.4), rgba(25, 88, 125, 0.4)
+    );
+}
+
+.choix:hover {
+    background: linear-gradient(
+            rgba(237, 221, 191, 1), rgba(25, 88, 125, 1)
+    );
 }
 
 #flecheDown, h2, #bandeAnnonce, #formulaire, footer {
