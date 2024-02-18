@@ -147,32 +147,41 @@
 
     </aside>
 
-    <form action="#">
+    <form action="#" class="form">
         <fieldset>
             <legend>PRENONS CONTACT</legend>
-            <label for="mail">Adresse email</label>
-            <input type="email" id="mail" name="mail"><br>
+            <div>
+                <label for="mail">Adresse email</label>
+                <input type="email" id="mail" name="mail"><br>
+            </div>
+            <div>
+                <label for="news">Newsletter</label><br>
+                <label>En cochant cette case vous acceptez de recevoir l’actualité concernant les
+                    aventures de Batman :<input type="checkbox"></label>
 
-            <label for="news">Newsletter</label><br>
-            <label for="chk">En cochant cette case vous acceptez de recevoir l’actualité concernant les
-                aventures de Batman :</label><input type="checkbox" name="chk" id="chk">
+                <select name="news" id="news">
+                    <option value="">Choisissez la fréquence à laquelle vous souhaitez recevoir votre newsletter
+                    </option>
+                    <option value="faible">Faible</option>
+                    <option value="moyen">Moyen</option>
+                    <option value="eleve">Elevé</option>
+                </select>
 
-            <select name="news" id="news">
-                <option value="">Choisissez la fréquence à laquelle vous souhaitez recevoir votre newsletter</option>
-                <option value="faible">Faible</option>
-                <option value="moyen">Moyen</option>
-                <option value="eleve">Elevé</option>
-            </select>
-            
-            <p>Souhaitez-vous recevoir des news</p>
-            <ul class="boiteChoix">
-                <li class="choix">Des films</li>
-                <li class="choix">Des comics</li>
-                <li class="choix">De tout</li>
-            </ul>
-            <label for="commentaire">Message</label> <br>
-            <textarea id="commentaire" name="commentaire" placeholder="Laisser un commentaire pour la communauté"></textarea><br>
-            <input type="submit" value="CONFIRMER">
+                <p>Souhaitez-vous recevoir des news</p>
+                <ul class="boiteChoix">
+                    <li class="choix">Des films</li>
+                    <li class="choix">Des comics</li>
+                    <li class="choix">De tout</li>
+                </ul>
+            </div>
+            <div>
+                <label for="commentaire">Message</label> <br>
+                <input id="commentaire" name="commentaire"
+                          placeholder="Laisser un commentaire pour la communauté"><br>
+            </div>
+            <div>
+                <input type="submit" value="CONFIRMER">
+            </div>
         </fieldset>
     </form>
 

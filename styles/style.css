@@ -129,6 +129,25 @@ aside img {
     background-color: #8d8181;
 }
 
+.form {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.form fieldset {
+    border: 0;
+}
+
+.form fieldset input:not([type="checkbox"], [type='submit']) {
+    width: 100%;
+}
+
+.form fieldset div {
+    margin: 25px auto;
+    display: flex;
+    flex-direction: column;
+}
+
 #bandeAnnonce {
     display: flex;
     justify-content: center;
