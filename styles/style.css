@@ -80,6 +80,10 @@ h2 {
 
 /* fondBatmanRouge ⬆️*/
 
+p {
+    line-height: 2em;
+}
+
 
 #flecheDown {
     display: flex;
