@@ -1,0 +1,16 @@
+body {
+    background-color: black;
+}
+
+.home {
+    font-size: 30px;
+    list-style-type: none;
+    text-decoration: none;      /* To tsy afaka?? */
+}
+
+#fondBatmanRouge {
+    background-image: url("../assets/Illustrations/Bathome1.png");
+    background-size: cover;
+    background-color: #cccccc;
+    place-items: center;
+}
