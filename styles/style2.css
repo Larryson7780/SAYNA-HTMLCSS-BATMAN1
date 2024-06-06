@@ -14,3 +14,8 @@ body {
     background-color: #cccccc;
     place-items: center;
 }
+
+.card {
+    display: flex;
+    align-items: center;justify-content: center;
+}
